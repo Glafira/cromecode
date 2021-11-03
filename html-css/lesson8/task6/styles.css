@@ -1,0 +1,21 @@
+div{
+	box-sizing: border-box;
+	margin: 50px;
+	border:2px solid black;
+	min-height: 100px;
+}
+.border-1{
+	background-color: blue;
+}
+.border-2{
+	background: yellow;
+}
+.border-3{
+	background-color:green;
+}
+.border-4{
+	background-color: pink;
+}
+
+
+
