@@ -1,0 +1,44 @@
+div{
+	margin: 50px;
+	box-sizing: border-box;
+}
+
+.rectangle,
+.elipse{
+	width: 100px;
+	height: 50px;
+}
+
+.circle,
+.thriangle{
+	width: 100px;
+	height: 100px;
+}
+
+.elipse, .circle{
+		border-radius: 100%;
+}
+
+.rectangle{
+	background-color: forestgreen;
+	border-radius: 50px;
+}
+
+.elipse{
+	background-color: darkmagenta;
+}
+
+.circle{
+	background-color: aquamarine;
+}
+
+.thriangle{
+	background-color: brown;
+	border-style: solid;
+	border-color: brown white white ;
+	border-width: 50px  50px  ;
+}
+
+/*top right bottom left*/
+/*top left-right  bottom*/
+/*top-bottom left-rigt*/
