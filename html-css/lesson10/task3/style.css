@@ -56,8 +56,22 @@ h2{
 	background-color: grey;
 }
 
+.aside h2{
+	padding: 16px 0;
+
+}
+
+.aside ul{
+	padding: 0;
+
+	margin: 0;
+}
+
 .aside li{
-	padding-bottom: 16px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding-left: 32px;
 }
 
 .footer{
