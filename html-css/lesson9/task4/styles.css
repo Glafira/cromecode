@@ -9,9 +9,7 @@
 }
 
 .header{
-	background-color: yellow;
-	box-sizing: content-box;
-	border-top: 20px solid black;
+	background-color: yellow;	
 }
 
 .content, .sidebar{
