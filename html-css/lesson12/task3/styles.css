@@ -6,8 +6,8 @@
 	font-size: 1.5em;
 }
 
-.list li.third{
-	text-decoration: green underline ;
+.list .third{
+	text-decoration: underline;
 }
 
 .list li.second{
