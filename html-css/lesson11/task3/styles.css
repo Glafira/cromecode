@@ -23,21 +23,21 @@
 	opacity: 1;
 }
 .menu-button{
-	
+	display: inline-block;
 	padding: 16px;
 	background-color: darkgreen;
 	opacity: .8;
 	font-weight: 16;
-	
 	cursor: pointer;
-	position: relative;
+	
 
 }
 .menu-list{
 	position: absolute;
 	display: none;
 	padding: 0;
-	margin-top: 16;	
+	margin: 0;
+	top: auto;
 	list-style: none;
 	background-color: lightcyan;
 	color: black;
