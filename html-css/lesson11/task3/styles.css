@@ -1,48 +1,45 @@
+*{
+	box-sizing: border-box;
+}
 .dropdown{
 	margin: 16px;
 	color: white;
 	position: relative;
-}
-
-.menu-item{
-	
-	padding: 16px;
-}
-
-.menu-item:hover{
-	background-color: ghostwhite;
-}
-
-.menu-button:hover + .menu-list,
-.menu-list:hover
-{
-	display: block;
-}
-	
-.menu-button:hover{
-	opacity: 1;
-	color: white;
-}
-.menu-button{
 	display: inline-block;
 	padding: 16px;
 	background-color: darkgreen;
 	opacity: 0.8;
-	font-weight: 16px;
+	font-size: 16px;
 	cursor: pointer;
-	
-
 }
+.dropdown:hover{
+	opacity: 1;
+}
+
+.dropdown:hover  .menu-list{
+	display: block;
+}
+
 .menu-list{
-	position: absolute;
 	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
 	padding: 0;
-	margin: 0;
-	top: auto;
+	margin: 0;	
+	min-width: 120px;
 	list-style: none;
 	background-color: lightcyan;
 	color: black;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
 	z-index: 1;
-	min-width: 120px;
+
+}
+
+.menu-item{	
+	padding: 16px;
+}
+
+.menu-item:hover{
+	background-color: ghostwhite;	
 }
