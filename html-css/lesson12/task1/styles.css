@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,400;1,900&display=swap');
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+html{
 	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 }
 
-body{
+section{
 	margin: 32px;
 }	
 
@@ -12,6 +12,7 @@ h1{
 	word-spacing: 20px;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 900;
 }
 
 p{
@@ -19,7 +20,7 @@ p{
 }
 
 p .selected{
-	font-weight: bold;
+	font-weight: 900;
 	letter-spacing: 3px;
 	font-size: 24px;
 	opacity: .8;
