@@ -5,9 +5,8 @@
 .list li{
 	font-size: 1.5em;
 }
-
-.list .third{
-	text-decoration:  overline;
+li:last-child{
+	text-decoration: green underline;
 }
 
 .list li.second{
