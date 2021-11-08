@@ -1,0 +1,23 @@
+html{
+	font-family: Verdana;
+}
+/*margin: auto;по вертикали только  во flex контанерах*/
+h1{
+	font-size: 74px;
+	width: 50vw;
+	white-space: nowrap; /*Текст не переноситься на новую строку*/
+	text-overflow: ellipsis;
+	margin: 16px auto;	
+	
+	overflow: hidden;
+}
+
+div{
+	height: 200px;
+	background-color: coral;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 200px;
+	vertical-align: center;
+}
