@@ -7,7 +7,8 @@ h1{
 	width: 50vw;
 	white-space: nowrap; /*Текст не переноситься на новую строку*/
 	text-overflow: ellipsis;
-	margin: 16px auto;	
+	margin-left: auto;	
+	margin-right: auto;
 	
 	overflow: hidden;
 }
