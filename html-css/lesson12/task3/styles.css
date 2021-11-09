@@ -1,13 +1,14 @@
 *{
 	list-style-type: none;
 }
-
-li{
-	font-size: 1.5rem;
+.list{
+	font-size: 1.5em;
 }
+
 
 li:last-child{
 	text-decoration: underline green;
+	line-height: 28px;	
 }
 
 li:nth-child(2){
@@ -16,4 +17,5 @@ li:nth-child(2){
 
 li:first-child{
 	text-decoration: overline red;
+
 }
