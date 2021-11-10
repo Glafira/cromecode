@@ -3,6 +3,7 @@
 }
 
 .image {
+    box-sizing: border-box;
     height: 200px;
     width: 200px;
     background-size: contain;
