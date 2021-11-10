@@ -1,0 +1,11 @@
+.gallery{
+	display: flex;
+}
+
+.image{
+	height: 200px;
+	width: 200px;
+	background-size: cover;
+	margin: 16px;
+	border: 1px dotted grey;
+}
