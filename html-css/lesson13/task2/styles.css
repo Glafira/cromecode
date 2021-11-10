@@ -9,3 +9,9 @@
 .icon:hover {
     background-position-y: 97px;
 }
+.t{
+	position: absolute;	
+	opacity: .5;
+	top: 0;
+	left: 0;
+}

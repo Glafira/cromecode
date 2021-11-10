@@ -1,0 +1,15 @@
+h1{
+	padding: 16px;
+	margin: 0;	
+	text-align: center;
+	text-transform: uppercase;
+	font-family: Arial sans-serif;
+	font-weight: 700;
+	font-size: 96px;
+	background: linear-gradient(45deg, yellow, red);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-o--background-clip: text;
+}
