@@ -1,0 +1,20 @@
+*{
+	box-sizing: border-box;
+}
+
+.form{
+	margin: 32px;
+}
+
+.form-control{
+	display: block;
+	margin: 8px;
+}
+
+.languages{
+	margin: 8px;
+}
+.languages input{
+	display: inline-block;
+} 
+
