@@ -12,36 +12,75 @@
 <body>
     <div class="page">
         <form action="" class="form">
-            <input class="form-control" type="text" name="primaryLanguage" value="HTML" disabled>
-            <input class="form-control" type="checkbox" name="agree" unchecked>
-            <input class="form-control" type="checkbox" name="like"  onclick="return false;" checked>
-            <input class="form-control" type="color" name="favouriteColor" value="#ff7f50">
-            <input class="form-control" type="date" name="birthDate" value="2021-01-02">
-            <input class="form-control" type="datetime-local" name="birthTime" value="2024-10-04T13:02">
-            <input class="form-control" type="email" name="email" placeholder="example@domain.com" required>
-            <input class="form-control" type="file" name="avatar">
-            <input class="form-control" type="month" name="startLearning" value="2020-01">
-            <input class="form-control" type="number" name="favouriteNumber" value="17">
-            <textarea class="form-control" name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea>
-            <input class="form-control" type="password"  name = "password"value="secret">
-            <div class="languages">
-                <input type="radio" name="language" id="lang-html" >
-                <label for="lang-html">HTML</label>
-                <input type="radio" name="language" id="lang-css" checked>
-                <label for="lang-css">CSS</label>
-                <input type="radio" name="language" id="lang-javascript">
-                <label for="lang-javascript">JavaScript</label>
+            <div class="form-control">
+                <input type="text" name="primaryLanguage" value="HTML" disabled>
             </div>
-            <input class="form-control" type="range" value="30" name="learningProgress">
-            <select class="form-control" name="framework" id="frameworkd">
-                <option value="react">React</option>
-                <option value="jquery" selected>jQuery</option>
-                <option value="bootstrap">Bootstrap</option>
-            </select>
-            <input class="form-control" type="search" name="search" placeholder="Type first letters...">
-            <input class="form-control" type="time" name="lunchEnd" value="14:01">
-            <input class="form-control" type="url" placeholder="https://website.com" required name="website">
-            <input class="form-control" type="week" value="2021-W51" name="birthWeek">
+            <div class="form-control">
+                <input type="checkbox" name="agree" unchecked>
+            </div>
+            <div class="form-control">
+                <input type="checkbox" name="like" onclick="return false;" checked>
+            </div>
+            <div class="form-control">
+                <input type="color" name="favouriteColor" value="#ff7f50">
+            </div>
+            <div class="form-control">
+                <input type="date" name="birthDate" value="2021-01-02">
+            </div>
+            <div class="form-control">
+                <input type="datetime-local" name="birthTime" value="
+            2024-10-04T13:02">
+            </div>
+            <div class="form-control">
+                <input type="email" name="email" placeholder="example@domain.com" required>
+            </div>
+            <div class="form-control">
+                <input type="file" name="avatar">
+            </div>
+            <div class="form-control">
+                <input type="month" name="startLearning" value="2020-01">
+            </div>
+            <div class="form-control">
+                <input type="number" name="favouriteNumber" value="17">
+            </div>
+            <div class="form-control">
+                <textarea name="story" cols="30" rows="5" placeholder="A long time ago..."></textarea>
+            </div>
+            <div class="form-control">
+                <input type="password" name="password" value="secret">
+            </div>
+            <div class="form-control">
+                <div class="languages">
+                    <input type="radio" name="language" id="lang-html">
+                    <label for="lang-html">HTML</label>
+                    <input type="radio" name="language" id="lang-css" checked>
+                    <label for="lang-css">CSS</label>
+                    <input type="radio" name="language" id="lang-javascript">
+                    <label for="lang-javascript">JavaScript</label>
+                </div>
+            </div>
+            <div class="form-control">
+                <input type="range" value="30" name="learningProgress">
+            </div>
+            <div class="form-control">
+                <select name="framework" id="frameworkd">
+                    <option value="react">React</option>
+                    <option value="jquery" selected>jQuery</option>
+                    <option value="bootstrap">Bootstrap</option>
+                </select>
+            </div>
+            <div class="form-control">
+                <input type="search" name="search" placeholder="Type first letters...">
+            </div>
+            <div class="form-control">
+                <input type="time" name="lunchEnd" value="14:01">
+            </div>
+            <div class="form-control">
+                <input type="url" placeholder="https://website.com" required name="website">
+            </div>
+            <div class="form-control">
+                <input type="week" value="2021-W51" name="birthWeek">
+            </div>
             <button class="form-control" type="submite">Save</button>
         </form>
     </div>

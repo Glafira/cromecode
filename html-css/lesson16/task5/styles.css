@@ -9,13 +9,12 @@
 .form-control {
     display: block;
     margin: 8px;
-    margin-left: 9px;
+   margin-left: 0;
 
 }
 
 .languages {
-    margin: 8px;
-}
+   
 
 .languages input {
     display: inline-block;
