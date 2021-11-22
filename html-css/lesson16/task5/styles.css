@@ -9,12 +9,18 @@
 .form-control{
 	display: block;
 	margin: 8px;
+
 }
 
 .languages{
 	margin: 8px;
+
 }
 .languages input{
 	display: inline-block;
 } 
+
+input[type="checkbox"]{
+	height: 1.5em;
+}
 
