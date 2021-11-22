@@ -45,13 +45,13 @@
 	outline: none;
 }
 
-.login-form input:valid{
+.login-form input[required]:valid{
 	border: 3px solid #fff000;
 }
 
 
 
-.login-form input:invalid{
+.login-form input[required]:invalid{
 	border: 3px solid red;
 }
 
@@ -62,7 +62,6 @@
 	margin-top: 16px;
 	color: white;
 	text-transform: uppercase;
-	border-radius: 4px;
-	outline: none;
+	border-radius: 4px;	
 	border: none;
 }
