@@ -11,8 +11,7 @@ div {
 table {
     min-width: 500px;
     margin: 16px;
-    border-collapse: collapse;
-    overflow-x: scroll;
+    border-collapse: collapse;    
 }
 
 table caption {
@@ -45,6 +44,6 @@ table tbody tr:hover {
 }
 
 
-table  tfoot {
+table tfoot {
     font-weight: 700;
 }
