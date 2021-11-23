@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+div {
+    max-width: 100%;
+    overflow-x: scroll;
+}
+
+table {
+    min-width: 500px;
+    margin: 16px;
+    border-collapse: collapse;
+    overflow-x: scroll;
+}
+
+table caption {
+    margin-bottom: 8px;
+}
+
+table tr {
+    height: 40px;
+}
+
+table td,
+table th {
+    border: 1px solid black;
+    padding: 4px;
+    text-align: right;
+
+}
+
+table thead {
+    background-color: aqua;
+}
+
+table tbody tr:nth-child(2n+1) {
+    background-color: #f2f2f2;
+}
+
+table tbody tr:hover {
+    background-color: #aaa;
+    color: white;
+}
+
+
+table  tfoot {
+    font-weight: 700;
+}
