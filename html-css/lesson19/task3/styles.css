@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.spinner{
+	font-family: monospace;
+	position: relative;
+}
+
+.spinner-text{
+	font-size: 16px;
+	text-transform: uppercase;
+	animation: blinking 2s linear infinite;
+}
+
+.rect{
+	position: absolute;
+	background-color: black;
+	width: 4px;
+	height: 10px;
+	border-radius: 2px;
+	animation: moving 2s infinite, blinking 2s infinite;
+	animation-direction: alternate ;
+	
+}
