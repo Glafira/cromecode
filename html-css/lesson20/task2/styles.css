@@ -21,7 +21,7 @@ body {
     border: none;
     margin: auto;
     cursor: pointer;
-    animation:jump .5s .4s ease-in-out, spin .5s ease-in-out, hide 1s 2s forwards;
+    animation: jump .5s .4s ease-in-out, spin .5s ease-in-out, hide 1s 2s forwards;
     /*animation-fill-mode: forwards;*/
 }
 
