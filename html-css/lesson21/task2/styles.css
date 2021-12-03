@@ -1,30 +1,29 @@
-.main-content {
+.content {
     display: flex;
     min-height: 100vh;
 }
 
 .gallery {
     width: 80%;
-    background-color: coral;
+    background-color: #fa5;
     display: flex;
 }
 
 .ideas {
     width: 20%;
-    background-color: aqua;
+    background-color: #5af;
     display: flex;
 }
 
-.main-image {
+.image {
     max-width: 100%;
     margin: auto;
     display: block;
-    box-shadow: 0px 10px 10px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.75);
 }
 .idea {
-    font-size: 24px;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 700;
     padding: 4px;
     color: white;
     margin: auto;
