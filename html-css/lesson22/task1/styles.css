@@ -2,12 +2,11 @@
     box-sizing: border-box;
 }
 
-body {
+.container {
     display: flex;
     height: 100vh;
-}
-
-.container {
+    justify-content: center;
+    align-items: center;
     margin: auto;
 }
 
@@ -26,7 +25,7 @@ body {
 
 @media screen and (orientation: portrait) {
     .container {
-        display: block;
+        flex-direction: column;
     }
 }
 
