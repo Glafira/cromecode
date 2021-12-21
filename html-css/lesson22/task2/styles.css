@@ -1,15 +1,13 @@
 * {
     box-sizing: border-box;
-    font-family: serif Verdana;
+    font-family:Verdana, sans-serif ;
     margin: 0;
     padding: 0;
 }
 
 .block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
+    display: flex;   
+    min-height: 200px;
 }
 
 .navigation {
@@ -30,6 +28,8 @@ span {
     background-color: #faebd8;
     border-radius: 4px;    
     margin: auto;
+    display: flex;
+    align-items: center;
 
 }
 
