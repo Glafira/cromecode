@@ -63,6 +63,6 @@ span {
 
     span {
         display: block;
-        transform: translateX(-2px);
+        transform: translateX(1px);
     }
 }
