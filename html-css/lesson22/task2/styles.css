@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    font-family: serif Verdana;
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.navigation {
+    background-color: #ff7f50;
+}
+
+.procucts-list {
+    background-color: #006400;
+}
+
+.news {
+    background-color: #0ff;
+}
+
+span {
+    text-transform: lowercase;
+    padding: 8px;
+    background-color: #faebd8;
+    border-radius: 4px;
+}
+
+@media only screen and (min-width: 599px) {}
+
+
+@media only screen and (min-width: 899px) {
+    .line {
+        display: flex;
+
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .line {
+        width: 66.66%;
+    }
+
+    .block {
+        flex-grow: 1;
+    }
+}
