@@ -28,7 +28,7 @@ span {
     background-color: #faebd8;
     border-radius: 4px;
     margin: auto;
-    display: flex;
+    display: block;
     align-items: center;
 
 }
@@ -39,7 +39,7 @@ span {
 @media only screen and (min-width: 899px) {
     .line {
         display: flex;
-        width: 100%;
+        width: 100%;  
     }
 
     .line .block {
@@ -59,6 +59,4 @@ span {
     .block {
        width: 33.33%;
     }
-
-
 }
