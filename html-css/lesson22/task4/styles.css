@@ -1,9 +1,8 @@
 *{
 	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	border: none;
-	list-style: none;
+		border: none;
+	outline: none;
+	
 
 }
 a{
@@ -26,7 +25,10 @@ html{
 .slider{
 	outline: none;
 	background-color: transparent;	
-
+	padding: 0;
+	margin: 0;
+	border: none;
+	outline: none;
 }
 
 
@@ -39,10 +41,19 @@ html{
 	padding: 0.5em;
 }
 
+.navigation ul{
+	padding: 0;
+	margin: 0;
+}
+
 .navigation li{
 	background-color: #808080;
 	height: 2em;
 	margin-bottom: 0.5em;
+	margin-top: 0.5em;
+	padding: 0;	
+	border: none;
+	list-style: none;
 }
 
 .navigation li a{
