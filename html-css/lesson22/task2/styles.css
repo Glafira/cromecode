@@ -28,7 +28,9 @@ span {
     text-transform: lowercase;
     padding: 8px;
     background-color: #faebd8;
-    border-radius: 4px;
+    border-radius: 4px;    
+    margin: auto;
+
 }
 
 @media only screen and (min-width: 599px) {}
@@ -37,7 +39,11 @@ span {
 @media only screen and (min-width: 899px) {
     .line {
         display: flex;
+        width: 100%;      
+    }
 
+    .line  .block{
+        flex-grow:1;
     }
 
 }
