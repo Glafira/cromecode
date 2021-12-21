@@ -50,15 +50,15 @@ span {
 
 @media only screen and (min-width: 1200px) {
     body {
-        display: flex;
-        align-items: stretch;
+        display: flex;       
     }
 
     .line {
-        width: 66.66%;
-    }
+        width: 66.66%;}
 
     .block {
        width: 33.33%;
     }
+
+
 }
