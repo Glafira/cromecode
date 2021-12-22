@@ -11,6 +11,7 @@ html {
 header {
     background: linear-gradient(60deg, red, orange);
 }
+
 h1 {
     color: white;
     text-align: center;
@@ -65,9 +66,9 @@ main {
     text-align: center;
 }
 
-img{
-     max-width: 100%;    
-     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+img {
+    max-width: 100%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .navigation ul {
@@ -95,32 +96,51 @@ img{
 }
 
 
-@media screen and (max-width: 599px){
-    .main{
+@media screen and (max-width: 599px) {
+    .main {
         /*//flex-direction: column;       */
         flex-wrap: wrap;
         align-content: flex-start;
-        
+
     }
 
-    .navigation, .news, .section {
-           width: 100%;
-           height: auto;
-           outline: 1px solid grey;
+    .navigation,
+    .news,
+    .section {
+        width: 100%;
+        height: auto;
+
+
     }
 }
 
-@media screen and (max-width: 1199px){
+@media screen and (min-width: 600px) {
+    .main {
+        flex-wrap: wrap;
+    }
 
-    .main{
+    .section {
+        width: 80%;
+    }
+
+    .news {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .main {
         /*//flex-direction: column;       */
         flex-wrap: wrap;
         align-content: flex-start;
     }
-    .news{
-        width: 100%;
+
+    .news {
+        width: 20%;
     }
-    .section{
-        width: 80%;
+
+    .section {
+        width: 60%;
     }
 }
