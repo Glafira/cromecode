@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+	<style>
+		*{padding: 0;
+			margin: 0;
+		}
+		.container{
+			height: 100vh;
+			display: flex;
+			flex-direction: column;
+
+		}
+		header, footer{
+			height: 3em;
+			background-color: #235;
+		}
+		
+		main {
+			display: flex;
+			flex-wrap: wrap;
+			flex-grow: 1;
+			flex-basis: 100px;
+			flex-shrink: 2;
+			align-content: flex-start;
+		}
+		.block{
+			width: 100%;
+			outline: 1px solid grey;
+			display: flex;
+
+			flex: 0 1 auto;
+
+		}
+	</style>
+<body>
+	<div class="container">
+<header>
+	
+</header>	
+<main>
+	<div class="block">
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet cumque quo dolore atque, itaque at fugit, optio? Eius error sed amet vero ullam porro ex doloremque hic commodi laborum?</p>
+	</div>
+	<div class="block">
+		<p>sole text</p>
+	</div>
+	<div class="block">
+		<p>sole text</p>
+	</div>
+</main>
+<footer>
+	
+</footer>
+</div>
+</body>
+</html>
