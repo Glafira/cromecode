@@ -43,7 +43,9 @@ span {
     }
 
     .line .block {
-        width: 50%
+        display: flex;
+        flex-basis: 300px;
+        flex-grow: 1;
     }
 
 }
@@ -54,15 +56,19 @@ span {
     }
 
     .line {
-        width: 66.66%;
+        /*width: 66.66%;*/
+        flex-basis: 600px;
+        flex-grow: 2;
     }
 
     .block {
-        width: 33.33%;
+        /*width: 33.33%;*/
+        flex-basis: 300px;
+        flex-grow: 1;
     }
 
     span {
         display: block;
-        transform: translateX(1px);
+        /*transform: translateX(1px);*/
     }
 }
