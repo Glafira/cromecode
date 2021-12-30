@@ -1,4 +1,4 @@
-// @import 'variables.scss';
+@import 'variables.scss';
 
 .header {
     height: 7 * $unit;
@@ -23,7 +23,7 @@
         cursor: pointer;
         font-weight: bold;
 
-        &__selected {
+        &_selected {
             background-color: $color-primery;
         }
 
