@@ -16,9 +16,13 @@ body {
   align-items: center;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+}
 @media screen and (orientation: landscape) {
   .container {
-    display: flex;
+    flex-direction: row;
   }
 }
 @media screen and (min-width: 600px) and (max-width: 899px) {
