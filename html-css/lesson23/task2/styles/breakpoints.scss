@@ -7,46 +7,43 @@ $sm:600px;
 $md:900px;
 $lg:1200px;
 
-.square{
-				background-color:#ff7f50;
+.square {
+    background-color: #ff7f50;
 }
 
-@mixin for-mor-xs{
-			@media screen and (min-width:$sm){
-				@content;
-			}
-}
-@mixin for-xs{
-	@media screen and (max-width:$sm-1){
-		@content;				
-	}
+@mixin for-landscape {
+    @media screen and (orientation: landscape) {
+        @content;
+    }
 }
 
-
-@mixin for-midium-up{
-	@media screen and (min-width:$sm) and (max-width: $md - 1) {
-		@content;
-	}
-
+@mixin for-xs {
+    @media screen and (max-width: $sm-1) {
+        @content;
+    }
 }
 
 
+@mixin for-midium-up {
+    @media screen and (min-width: $sm) and (max-width: $md - 1) {
+        @content;
+    }
 
-@mixin for-large-up{
-	@media screen and (min-width: $md) and (max-width:$lg - 1) {
-		@content;
-			
-		}
-}
-
-
-@mixin for-ex-large{
-	@media screen and (min-width: $lg)  {
-		@content;
-			
-		}
 }
 
 
 
+@mixin for-large-up {
+    @media screen and (min-width: $md) and (max-width:$lg - 1) {
+        @content;
 
+    }
+}
+
+
+@mixin for-ex-large {
+    @media screen and (min-width: $lg) {
+        @content;
+
+    }
+}
