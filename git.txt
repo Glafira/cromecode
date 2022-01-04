@@ -1,0 +1,36 @@
+фдшпт-сщтеутеcromecode.git
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main
+git add *.*   
+git remote add origin https://Glafira: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@github.com/Glafira/cromecode.git   
+git push -u origin main
+
+git remote set origin https://Glafira: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@github.com/Glafira/cromecode.git
+
+git remote set origin https://glafira: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@github.com/Glafira/cromecode.git
+
+Описание 
+Текст скрывается и в конце ... 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+Віравниевание align-items для одной строки
+align-content для многосьроя=чного макета 
+Препроцессоры 
+Установка sass   npm install -g sass
+    Если установить локально не работает!! Крманла sass не запускается
+    sass --version                                                                   
+    "sass" не является внутренней или внешней        
+
+Версия    sass --version  
+sass --version                                                                   
+1.45.1 compiled with dart2js 2.15.1                            
+
+Сборка
+sass source style.scss build style.css
+
+sass --watch index.scss  style.css
+
