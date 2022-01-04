@@ -1,0 +1,37 @@
+.container {
+    @include for-lg {
+        display: flex;
+    }
+}
+
+.line {
+    @include for-md {
+        display: flex;
+        width: 100%;
+    }
+
+
+    @include for-lg {
+        flex-basis: 600px;
+        flex-grow: 2;
+    }
+}
+
+.block {
+    @include for-md {
+        display: flex;
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    @include for-lg {
+        flex-basis: 300px;
+        flex-grow: 1;
+    }
+
+    span {
+        @include for-lg {
+            display: block;
+        }
+    }
+}

@@ -34,3 +34,5 @@ sass source style.scss build style.css
 
 sass --watch index.scss  style.css
 
+git remote set origin https://glafira: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@github.com/Glafira/cromecode.git
+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

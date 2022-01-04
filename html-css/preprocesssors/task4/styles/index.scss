@@ -1,0 +1,38 @@
+@import "breakpoints.scss";
+@import "layouts.scss";
+
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.block {
+    display: flex;
+    min-height: 200px;
+}
+
+.navigation {
+    background-color: #ff7f50;
+}
+
+.procucts-list {
+    background-color: #006400;
+}
+
+.news {
+    background-color: #0ff;
+}
+
+span {
+    text-transform: lowercase;
+    padding: 8px;
+    background-color: #faebd8;
+    border-radius: 4px;
+    margin: auto;
+    display: block;
+    align-items: center;
+
+}
